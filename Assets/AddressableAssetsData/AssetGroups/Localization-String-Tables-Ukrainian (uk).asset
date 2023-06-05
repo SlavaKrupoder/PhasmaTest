@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-String-Tables-Ukrainian (uk)
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-String-Tables-Ukrainian (uk)
+  m_Data:
+    m_SerializedData: []
+  m_GUID: e3cc0e7eaa0099949bec5da574c9e504
+  m_SerializeEntries:
+  - m_GUID: e2609c7a5ae1a6041b6aa2675f8ed196
+    m_Address: Game Local Table_uk
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-uk
+  - m_GUID: b0f891080ceba0e4c9acef429eba73c8
+    m_Address: Ghost Type Table_uk
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-uk
+    - Preload
+  - m_GUID: b942df4816f92a047ba2e21f21f96b80
+    m_Address: Evidences Localization Table_uk
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-uk
+    - Preload
+  - m_GUID: b6fc89a969753c34b8bbc001847fffc9
+    m_Address: Ghosts Description Tabel_uk
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-uk
+    - Preload
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 10257417de0ffd94a8ad57dc7acf54a4, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 82867bdb8fc96914caae131daa6e704a, type: 2}
+    - {fileID: 11400000, guid: f336f31dff780d341ac064bb42a8964b, type: 2}

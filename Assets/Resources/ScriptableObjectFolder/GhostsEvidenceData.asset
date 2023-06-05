@@ -1,0 +1,207 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fd8e39f201234847a18326043ab0eaf, type: 3}
+  m_Name: GhostsEvidenceData
+  m_EditorClassIdentifier: 
+  _ghostsEvidenceDictionary:
+  - GhostType: Spirit
+    Emf: 1
+    Fingerprint: 0
+    GhostWriting: 1
+    FreezingTemperatures: 0
+    DOTSProjector: 0
+    GhostOrbs: 0
+    SpiritBox: 1
+  - GhostType: Wraith
+    Emf: 1
+    Fingerprint: 0
+    GhostWriting: 0
+    FreezingTemperatures: 0
+    DOTSProjector: 1
+    GhostOrbs: 0
+    SpiritBox: 1
+  - GhostType: Phantom
+    Emf: 0
+    Fingerprint: 1
+    GhostWriting: 0
+    FreezingTemperatures: 0
+    DOTSProjector: 1
+    GhostOrbs: 0
+    SpiritBox: 1
+  - GhostType: Poltergeist
+    Emf: 0
+    Fingerprint: 1
+    GhostWriting: 1
+    FreezingTemperatures: 0
+    DOTSProjector: 0
+    GhostOrbs: 0
+    SpiritBox: 1
+  - GhostType: Banshee
+    Emf: 0
+    Fingerprint: 1
+    GhostWriting: 0
+    FreezingTemperatures: 0
+    DOTSProjector: 1
+    GhostOrbs: 1
+    SpiritBox: 0
+  - GhostType: Jinn
+    Emf: 1
+    Fingerprint: 1
+    GhostWriting: 0
+    FreezingTemperatures: 1
+    DOTSProjector: 0
+    GhostOrbs: 0
+    SpiritBox: 0
+  - GhostType: Mare
+    Emf: 0
+    Fingerprint: 0
+    GhostWriting: 1
+    FreezingTemperatures: 0
+    DOTSProjector: 0
+    GhostOrbs: 1
+    SpiritBox: 1
+  - GhostType: Revenant
+    Emf: 0
+    Fingerprint: 0
+    GhostWriting: 1
+    FreezingTemperatures: 1
+    DOTSProjector: 0
+    GhostOrbs: 1
+    SpiritBox: 0
+  - GhostType: Shade
+    Emf: 1
+    Fingerprint: 0
+    GhostWriting: 1
+    FreezingTemperatures: 1
+    DOTSProjector: 0
+    GhostOrbs: 0
+    SpiritBox: 0
+  - GhostType: Demon
+    Emf: 0
+    Fingerprint: 1
+    GhostWriting: 1
+    FreezingTemperatures: 1
+    DOTSProjector: 0
+    GhostOrbs: 0
+    SpiritBox: 0
+  - GhostType: Yurei
+    Emf: 0
+    Fingerprint: 0
+    GhostWriting: 0
+    FreezingTemperatures: 1
+    DOTSProjector: 1
+    GhostOrbs: 1
+    SpiritBox: 0
+  - GhostType: Oni
+    Emf: 1
+    Fingerprint: 0
+    GhostWriting: 0
+    FreezingTemperatures: 1
+    DOTSProjector: 1
+    GhostOrbs: 0
+    SpiritBox: 0
+  - GhostType: Yokai
+    Emf: 0
+    Fingerprint: 0
+    GhostWriting: 0
+    FreezingTemperatures: 0
+    DOTSProjector: 1
+    GhostOrbs: 1
+    SpiritBox: 1
+  - GhostType: Hantu
+    Emf: 0
+    Fingerprint: 1
+    GhostWriting: 0
+    FreezingTemperatures: 1
+    DOTSProjector: 0
+    GhostOrbs: 1
+    SpiritBox: 0
+  - GhostType: Goryo
+    Emf: 1
+    Fingerprint: 1
+    GhostWriting: 0
+    FreezingTemperatures: 0
+    DOTSProjector: 1
+    GhostOrbs: 0
+    SpiritBox: 0
+  - GhostType: Myling
+    Emf: 1
+    Fingerprint: 1
+    GhostWriting: 1
+    FreezingTemperatures: 0
+    DOTSProjector: 0
+    GhostOrbs: 0
+    SpiritBox: 0
+  - GhostType: Onryo
+    Emf: 0
+    Fingerprint: 0
+    GhostWriting: 0
+    FreezingTemperatures: 1
+    DOTSProjector: 0
+    GhostOrbs: 1
+    SpiritBox: 1
+  - GhostType: TheTwins
+    Emf: 1
+    Fingerprint: 0
+    GhostWriting: 0
+    FreezingTemperatures: 1
+    DOTSProjector: 0
+    GhostOrbs: 0
+    SpiritBox: 1
+  - GhostType: Raiju
+    Emf: 1
+    Fingerprint: 0
+    GhostWriting: 0
+    FreezingTemperatures: 0
+    DOTSProjector: 1
+    GhostOrbs: 1
+    SpiritBox: 0
+  - GhostType: Obake
+    Emf: 1
+    Fingerprint: 1
+    GhostWriting: 0
+    FreezingTemperatures: 0
+    DOTSProjector: 0
+    GhostOrbs: 1
+    SpiritBox: 0
+  - GhostType: TheMimic
+    Emf: 0
+    Fingerprint: 1
+    GhostWriting: 0
+    FreezingTemperatures: 1
+    DOTSProjector: 0
+    GhostOrbs: 1
+    SpiritBox: 1
+  - GhostType: Moroi
+    Emf: 0
+    Fingerprint: 0
+    GhostWriting: 1
+    FreezingTemperatures: 1
+    DOTSProjector: 0
+    GhostOrbs: 0
+    SpiritBox: 1
+  - GhostType: Deogen
+    Emf: 0
+    Fingerprint: 0
+    GhostWriting: 1
+    FreezingTemperatures: 0
+    DOTSProjector: 1
+    GhostOrbs: 0
+    SpiritBox: 1
+  - GhostType: Thaye
+    Emf: 0
+    Fingerprint: 0
+    GhostWriting: 1
+    FreezingTemperatures: 0
+    DOTSProjector: 1
+    GhostOrbs: 1
+    SpiritBox: 0

@@ -1,0 +1,206 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Ghosts Description Tabel_pl
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: pl
+  m_SharedData: {fileID: 11400000, guid: 96959fb42b9a3df41822cd7476b1f145, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 13703376896
+    m_Localized: "<style=\"Title\">Mocne strony</style>\r\n\r\nBrak konkretnych mocnych
+      stron.\r\n\n<style=\"Title\">S\u0142abe strony</style>\r\n\r\nKadzid\u0142o
+      jest skuteczniejsze, zapobiegaj\u0105c polowaniu przez d\u0142u\u017Cszy czas
+      (3 minuty zamiast 1,5 minuty)."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3090070171648
+    m_Localized: "<style=\"Title\">Mocne strony</style>\r\n\r\nZdolno\u015B\u0107
+      do rzucania wieloma przedmiotami naraz.\r\nPotrafi rzuca\u0107 przedmiotami
+      z du\u017C\u0105 pr\u0119dko\u015Bci\u0105 i na du\u017C\u0105 odleg\u0142o\u015B\u0107.\r\n\n<style=\"Title\">S\u0142abo\u015Bci</style>\r\n\r\nStaje
+      si\u0119 bezsilny, je\u015Bli w pobli\u017Cu nie ma przedmiot\xF3w, kt\xF3rymi
+      m\xF3g\u0142by rzuci\u0107."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3194046967808
+    m_Localized: "<style=\"Title\">Mocne strony</style>\r\n\r\nMa zwi\u0119kszon\u0105
+      szans\u0119 na atak w ciemno\u015Bci (60% w ciemno\u015Bci, 40% w \u015Bwietle).\r\nCz\u0119\u015Bciej
+      st\u0142ucze \u017Car\xF3wki w pokojach.\r\n<style=\"Title\">S\u0142abe strony</style>\r\n\r\nJe\u015Bli
+      w\u0142\u0105czysz \u015Bwiat\u0142o, zmniejszysz szans\u0119 na atak.\r\nOd
+      czasu do czasu natychmiast wy\u0142\u0105cza \u015Bwiat\u0142o.\r\nNigdy nie
+      w\u0142\u0105czy \u015Bwiat\u0142a."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3231342718976
+    m_Localized: "<style=\"Title\">Mocne strony</style>\n\nMo\u017Ce cz\u0119\u015Bciej
+      polowa\u0107.\r\nMo\u017Ce polowa\u0107 z maksymaln\u0105 dyskrecj\u0105.\n\n<style=\"Title\">S\u0142abo\u015Bci</style>\n\nZasi\u0119g
+      Krucyfiksu zwi\u0119kszono z 3 m do 5 m.\r\nKadzid\u0142o jest mniej skuteczne
+      i zapobiega polowaniu tylko przez 30 sekund zamiast 1,5 minuty"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3260585406464
+    m_Localized: "<style=\"Title\">Mocne strony</style>\r\n\r\nRozmowa w pobli\u017Cu
+      Yokai rozz\u0142o\u015Bci go, zwi\u0119kszaj\u0105c szans\u0119 na atak.\r\n\n<style=\"Title\">S\u0142abe
+      strony</style>\r\n\r\nPodczas polowania s\u0142yszy g\u0142osy tylko w pobli\u017Cu.\r\nWyczuwa
+      urz\u0105dzenia elektryczne z bardzo bliskiej odleg\u0142o\u015Bci."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3265211723776
+    m_Localized: "<style=\"Title\">Mocne strony</style>\r\n\r\nPodczas polowania
+      wydaje cichsze odg\u0142osy chodzenia (prawie nies\u0142yszalne).\r\n\n<style=\"Title\">S\u0142abo\u015Bci</style>\r\n\r\nCz\u0119\u015Bciej
+      wydaje paraboliczne d\u017Awi\u0119ki na mikrofonie parabolicznym i radiu."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3273285758976
+    m_Localized: "<style=\"Title\">Mocne strony</style>\r\n\r\nPorusza si\u0119 szybciej
+      w pobli\u017Cu aktywnego sprz\u0119tu elektronicznego.\r\n\n<style=\"Title\">S\u0142abe
+      strony</style>\r\n\r\nWy\u0142\u0105cza sprz\u0119t elektroniczny z wi\u0119kszej
+      odleg\u0142o\u015Bci podczas polowania."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3277215821824
+    m_Localized: "<style=\"Title\">Mocne strony</style>\r\n\r\nPorusza si\u0119 zauwa\u017Calnie
+      szybciej przy niskim zdrowiu psychicznym gracza.\r\nMo\u017Ce przeklina\u0107
+      graczy (przeklina przez radio lub mikrofon paraboliczny), powoduj\u0105c, \u017Ce
+      trac\u0105 zdrowie psychiczne szybciej ni\u017C zwykle na obszarze badania.\r\n\n<style=\"Title\">S\u0142abo\u015Bci</style>\r\n\r\nKadzid\u0142o
+      o\u015Blepia ducha na d\u0142u\u017Cej podczas polowania (12 sekund zamiast
+      6 sekund).\r\n<color=red>Zawsze</color> ma dow\xF3d z Ghost Box, nawet w trybie
+      braku dowod\xF3w!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3911742713856
+    m_Localized: "<style=\"Title\">Mocne strony</style>\r\n\r\nNie mo\u017Cna \u015Bledzi\u0107
+      \u015Blad\xF3w.\r\nCzasami teleportuje si\u0119 do losowego gracza.\r\n\n<style=\"Title\">S\u0142abo\u015Bci</style>\r\n\r\nNie
+      nadepnie na s\xF3l."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4006164885504
+    m_Localized: "<style=\"Title\">Mocne strony</style>\n\n Zwi\u0119kszona aktywno\u015B\u0107,
+      gdy w pobli\u017Cu znajduj\u0105 si\u0119 gracze. \n\n <style=\"Title\">S\u0142abe
+      strony</style>\n\nMniej migotania podczas polowania i d\u0142u\u017Cej widoczny\r\nNigdy
+      nie wykonuje zdarzenia balonu duch\xF3w.\r\nWydarzenia zwi\u0105zane z duchami
+      bardziej wyczerpuj\u0105 umys\u0142 gracza, a tak\u017Ce wyst\u0119puj\u0105
+      cz\u0119\u015Bciej ni\u017C inne duchy"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4114990297088
+    m_Localized: "<style=\"Title\">Mocne strony</style>\n\nMa silniejszy wp\u0142yw
+      na zdrowie psychiczne (0,4%/s).\n\r\n<style=\"Title\">S\u0142abe strony</style>\n\nKadzid\u0142o
+      sprawia, \u017Ce Yurei rzadziej w\u0119druje (90 sekund).\r\nU\u017Cycie jego
+      zdolno\u015Bci powoduje zamkni\u0119cie jednej lub kilku drzwi.\r\n\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4118358323200
+    m_Localized: "<style=\"Title\">Mocne strony</style> \n\nNi\u017Csze temperatury
+      pozwalaj\u0105 Hantu porusza\u0107 si\u0119 szybciej. \n\r\n<style=\"Title\">S\u0142abe
+      strony</style> \n\nCieplejsze obszary spowalniaj\u0105 ruchy Hantu.\r\nSporadycznie
+      wytwarza mro\u017Any oddech podczas polowania, je\u015Bli skrzynka bezpiecznik\xF3w
+      jest wy\u0142\u0105czona.\r\nNigdy nie w\u0142\u0105cza skrzynki bezpiecznik\xF3w.\r\n<color=red>Zawsze</color>
+      dowody b\u0119d\u0105 mia\u0142y temperatur\u0119 zamarzania, nawet w trybie
+      braku dowod\xF3w!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4121055260672
+    m_Localized: "<style=\"Title\">Mocne strony</style>\n\nZgaszenie p\u0142omieni
+      mo\u017Ce zmusi\u0107 Onrio do ataku. \n\r\n<style=\"Title\">S\u0142abe strony</style>\n\nPosiadanie
+      p\u0142omieni zmniejsza zdolno\u015B\u0107 Onrio do ataku."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4124029022208
+    m_Localized: "<style=\"Title\">Mocne strony</style>\n\nPozostawia odciski palc\xF3w,
+      kt\xF3re blakn\u0105 szybciej ni\u017C inne duchy.\n\n<style=\"Title\">S\u0142abe
+      strony</style>\n\nMa niewielk\u0105 szans\u0119 na pozostawienie specjalnych
+      odcisk\xF3w palc\xF3w (6 palc\xF3w).\r\nPotrafi szybko zmieni\u0107 form\u0119
+      na inny model podczas polowania (6%).\r\n<color=red>W\u015Br\xF3d dowod\xF3w
+      zawsze s\u0105</color> odciski palc\xF3w! nawet przy braku dowod\xF3w."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4126956646400
+    m_Localized: "<style=\"Title\">Mocne strony</style>\n\n<color=red>Zawsze</color>
+      wie, gdzie znajduje si\u0119 gracz podczas polowania i porusza si\u0119 bardzo
+      szybko, gdy zmierza do swojej lokalizacji. \n\r\n<style=\"Title\">S\u0142abo\u015Bci</style>
+      \nPorusza si\u0119 bardzo wolno, gdy znajduje si\u0119 w pobli\u017Cu ofiary."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4129490006016
+    m_Localized: "<style=\"Title\">Mocne strony</style>\n\nSpogl\u0105daj\u0105c
+      na Upiora, ocena gracza znacznie si\u0119 obni\u017Cy (0,5%/sek).\r\nCzasami
+      przemieszcza si\u0119 do losowego gracza.\n\n<style=\"Title\">S\u0142abe strony</style>
+      \n\nZrobienie zdj\u0119cia Upiorowi sprawi, \u017Ce na chwil\u0119 zniknie.\r\nMniej
+      widoczny podczas polowa\u0144, poniewa\u017C miga szybciej."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4132631539712
+    m_Localized: "<style=\"Title\">Mocne strony</style>\n\nPorusza si\u0119 szybciej,
+      je\u015Bli gracz jest w polu widzenia.\n\n<style=\"Title\">S\u0142abe strony</style>\n\nNie
+      mo\u017Ce u\u017Cywa\u0107 swojej zdolno\u015Bci, je\u015Bli skrzynka z bezpiecznikami
+      jest wy\u0142\u0105czona.\r\nNigdy nie wy\u0142\u0105czy skrzynki z bezpiecznikami
+      bezpo\u015Brednio."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7942682767360
+    m_Localized: "<style=\"Title\">Mocne strony</style>\n\nMniejsze prawdopodobie\u0144stwo
+      interakcji z przedmiotami lub graczami.\n\n<style=\"Title\">S\u0142abe strony</style>\n\nNie
+      mo\u017Ce rozpocz\u0105\u0107 polowania, je\u015Bli w pobli\u017Cu s\u0105
+      obecni gracze."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8220945477632
+    m_Localized: "<style=\"Title\">Mocne strony</style>\\n\r\nWidoczne jest tylko
+      oddzia\u0142ywanie z D.O.T.S. poprzez kamer\u0119, gdy nikogo nie ma w pobli\u017Cu.\\n\r\n<style=\"Title\">S\u0142abo\u015Bci</style>\\n\r\nNie
+      mo\u017Ce oddala\u0107 si\u0119 daleko od swojego pokoju ani zmienia\u0107
+      ulubionych pokoi."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8226733617152
+    m_Localized: "<style=\"Title\">Mocne strony</style>\n\nPotrafi na\u015Bladowa\u0107
+      zdolno\u015Bci i cechy innych duch\xF3w.\n\n<style=\"Title\">S\u0142abe strony</style>\n\n<color=red>Zawsze</color>
+      jako dow\xF3d ma widmowe \u015Bwiat\u0142o, nawet w trybie bez dowod\xF3w!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8601473708032
+    m_Localized: "<style=\"Title\">Mocne strony</style>\\n\r\nWej\u015Bcie do lokacji
+      sprawia, \u017Ce jest aktywny, defensywny i zwinny.\\n\r\n<style=\"Title\">S\u0142abe
+      strony</style>\\n\r\nZ czasem staje si\u0119 wolniejszy i mniej aktywny z powodu
+      starzenia si\u0119, dlatego tablica Ouija pokazuje r\xF3\u017Cne wieki ducha
+      po kilku jego atakach."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281961491394560
+    m_Localized: "<style=\"Title\">Mocne strony</style>\\n\r\nKa\u017Cdy z bli\u017Aniak\xF3w
+      mo\u017Ce rozpocz\u0105\u0107 polowanie, ale nie w tym samym czasie. Jeden
+      bli\u017Aniak jest powolny, drugi szybki.\\n\r\n<style=\"Title\">S\u0142abo\u015Bci</style>\\n\r\nCz\u0119sto
+      wchodzi w interakcje z otoczeniem w tym samym czasie, ale zwykle w r\xF3\u017Cnych
+      miejscach."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4112444354560
+    m_Localized: "<style=\"Title\">Mocne strony</style>\n\nPorusza si\u0119 znacznie
+      szybciej, je\u015Bli podczas polowania znana jest lokalizacja gracza.\n\n<style=\"Title\">S\u0142abe
+      strony</style>\n\nPorusza si\u0119 bardzo wolno, gdy nie goni gracza."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4104013803520
+    m_Localized: "<style=\"Title\">Mocne strony</style>\n\nW danym momencie celem
+      mo\u017Ce by\u0107 tylko jeden gracz.\r\nWysysa wi\u0119cej dyskrecji podczas
+      specjalnego \u201E\u015Bpiewania\u201D do mikrofonu parabolicznego. \n\r\n<style=\"Title\">Mocne
+      strony</style> \n\nCharakteryzuje si\u0119 charakterystycznym d\u017Awi\u0119kiem
+      mikrofonu parabolicznego.\r\nPo opuszczeniu graczy powraca do pokoju, w kt\xF3rym
+      pocz\u0105tkowo si\u0119 pojawi\u0142a, co umo\u017Cliwia jej wykrycie przez
+      sensory ruchu."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

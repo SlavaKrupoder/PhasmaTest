@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Ghosts Description Tabel Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Ghosts Description Tabel
+  m_TableCollectionNameGuidString: 96959fb42b9a3df41822cd7476b1f145
+  m_Entries:
+  - m_Id: 13703376896
+    m_Key: SpiritDescript
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3090070171648
+    m_Key: PoltergeistDescript
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3194046967808
+    m_Key: MareDescript
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3231342718976
+    m_Key: DemonDescript
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3260585406464
+    m_Key: YokaiDescript
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3265211723776
+    m_Key: MylingDescript
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3273285758976
+    m_Key: RaijuDescript
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3277215821824
+    m_Key: MoroiDescript
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3911742713856
+    m_Key: WraithDescript
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4006164885504
+    m_Key: OniDescript
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4104013803520
+    m_Key: BansheeDescript
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4112444354560
+    m_Key: RevenantDescript
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4114990297088
+    m_Key: YureiDescript
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4118358323200
+    m_Key: HantuDescript
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4121055260672
+    m_Key: OnryoDescript
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4124029022208
+    m_Key: ObakeDescript
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4126956646400
+    m_Key: DeogenDescript
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4129490006016
+    m_Key: PhantomDescript
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4132631539712
+    m_Key: JinnDescript
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7942682767360
+    m_Key: ShadeDescript
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8220945477632
+    m_Key: GoryoDescript
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8226733617152
+    m_Key: TheMimicDescript
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8601473708032
+    m_Key: ThayeDescript
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281961491394560
+    m_Key: TheTwinsDescript
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 6922437598423285767
+  references:
+    version: 2
+    RefIds:
+    - rid: 6922437598423285767
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1684173300355

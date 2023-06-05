@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be51871efa6c3e4eae1703925c8f5ac, type: 3}
+  m_Name: Ghosts Description Tabel
+  m_EditorClassIdentifier: 
+  m_SharedTableData: {fileID: 11400000, guid: 96959fb42b9a3df41822cd7476b1f145, type: 2}
+  m_Tables:
+  - {fileID: 11400000, guid: 0f3b7af7d1732994b91ba597c3762c94, type: 2}
+  - {fileID: 11400000, guid: 212a9ce0830de3348b873e329cfb29ba, type: 2}
+  - {fileID: 11400000, guid: b6fc89a969753c34b8bbc001847fffc9, type: 2}
+  m_Extensions: []
+  m_Group: String Table
+  references:
+    version: 2
+    RefIds: []

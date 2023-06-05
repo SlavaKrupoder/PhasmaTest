@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Ghost Type Table Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Ghost Type Table
+  m_TableCollectionNameGuidString: bfbddd8cca9fcbc488d62045bc984fef
+  m_Entries:
+  - m_Id: 48209313984512
+    m_Key: SpiritLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48565225844736
+    m_Key: PoltergeistLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48569415954432
+    m_Key: MareLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48572909809664
+    m_Key: DemonLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48576231698432
+    m_Key: YokaiLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48579851382784
+    m_Key: MylingLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48584871964672
+    m_Key: RaijuLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50238367264768
+    m_Key: MoroiLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50266666233856
+    m_Key: WraithLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50298970763264
+    m_Key: OniLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50310140194816
+    m_Key: BansheeLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50328058261504
+    m_Key: RevenantLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50355409317888
+    m_Key: YureiLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50379308462080
+    m_Key: HantuLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50419087241216
+    m_Key: OnryoLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50433859579904
+    m_Key: ObakeLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50453203709952
+    m_Key: DeogenLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50473818714112
+    m_Key: PhantomLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50483658551296
+    m_Key: JinnLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50506622365696
+    m_Key: ShadeLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50516936159232
+    m_Key: GoryoLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50636972945408
+    m_Key: TheTwinsLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50660490407936
+    m_Key: TheMimicLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50671445929984
+    m_Key: ThayeLabel
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 6922437554006130695
+  references:
+    version: 2
+    RefIds:
+    - rid: 6922437554006130695
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1683997222592

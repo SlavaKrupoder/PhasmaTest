@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Game Local Table_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 240f8c8ee32389742a52895e0a66203a, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 44233306730496
+    m_Localized: Evidence
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44328274161664
+    m_Localized: 'Using the evidence we''ve found, we believe the ghost is a:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48173884698624
+    m_Localized: Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 781199144972288
+    m_Localized: Tools
+    m_Metadata:
+      m_Items: []
+  - m_Id: 781630470418432
+    m_Localized: Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7234740315287552
+    m_Localized: Start/Stop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7235297650208768
+    m_Localized: Reset Timer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7713174237802496
+    m_Localized: Watch Ads
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7713253745029120
+    m_Localized: Donate 1$
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

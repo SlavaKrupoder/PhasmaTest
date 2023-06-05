@@ -1,0 +1,368 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Ghosts Description Tabel_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 96959fb42b9a3df41822cd7476b1f145, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 13703376896
+    m_Localized: "\r<style=\"Title\">Strengths</style>\r\n\r\nNo specific strengths.\r\n\n<style=\"Title\">Weaknesses</style>\r\n\r\nSmudge
+      sticks are more effective, preventing a hunt for a longer duration (3 minutes
+      instead of 1.5 minutes)."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4104013803520
+    m_Localized: "<style=\"Title\">Strengths</style>\n\nWill target only one player
+      at a time.\r\nDrains more sanity during singing ghost events.\n\r\n<style=\"Title\">Weaknesses</style>
+      \n\nHas a distinctive wail on the Parabolic Microphone.\r\nReturns to the room
+      where it initially spawned after leaving the players, making it detectable
+      by motion sensors."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3090070171648
+    m_Localized: '<style="Title">Strengths</style>
+
+      
+
+      Capable of throwing
+      multiple objects at once.
+
+      Can throw objects at high velocities.
+
+
+      <style="Title">Weaknesses</style>
+
+      
+
+      Becomes
+      powerless with no throwables nearby.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3194046967808
+    m_Localized: '<style="Title">Strengths</style>
+
+      
+
+      Has an increased
+      chance to attack in the dark (60% in dark, 40% in the light).
+
+      Breaks
+      light bulbs in rooms more often.
+
+      <style="Title">Weaknesses</style>
+
+      
+
+      Turning
+      the lights on will reduce the chance of an attack.
+
+      Will occasionally
+      turn lights off right away.
+
+      Will never turn a light on.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3231342718976
+    m_Localized: '<style="Title">Strengths</style>
+
+
+      Can initiate hunts more
+      often.
+
+      Can hunt at max sanity.
+
+
+      <style="Title">Weaknesses</style>
+
+
+      Crucifix
+      effectiveness is increased to 5m against one.
+
+      Smudge sticks are less
+      effective, preventing a hunt for less time (30s instead of 1.5min)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3260585406464
+    m_Localized: '<style="Title">Strengths</style>
+
+      
+
+      Talking near
+      the Yokai will anger it, increasing the chance to attack.
+
+
+      style="Title">Weaknesses</style>
+
+      
+
+      Can
+      only hear voices close to it during a hunt.
+
+      Feels electrical devices
+      from a very close distance.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3265211723776
+    m_Localized: '<style="Title">Strengths</style>
+
+      
+
+      Produces quieter
+      sounds during a hunt.
+
+
+      <style="Title">Weaknesses</style>
+
+      
+
+      Produces
+      paranormal sounds more frequently on the Parabolic Microphone.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3273285758976
+    m_Localized: '<style="Title">Strengths</style>
+
+      
+
+      Moves faster
+      near active electronic equipment.
+
+
+      <style="Title">Weaknesses</style>
+
+      
+
+      Disrupts
+      electronic equipment from further away when it hunts.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3277215821824
+    m_Localized: '<style="Title">Strengths</style>
+
+      
+
+      Moves noticeably
+      faster at low player sanity.
+
+      Can curse players (can curse through a
+      radio or parabolic microphone), making them lose sanity quicker than usual
+      while in the investigation zone.
+
+
+      <style="Title">Weaknesses</style>
+
+      
+
+      Smudge
+      sticks blind the ghost for longer during hunts (12 seconds instead of 6 seconds).
+
+      <color=red>Always</color>
+      has Ghost Box proof even in no proof mode!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3911742713856
+    m_Localized: '<style="Title">Strengths</style>
+
+      
+
+      Cannot be tracked
+      by footsteps.
+
+      Will occasionally teleport to a random player.
+
+
+      <style="Title">Weaknesses</style>
+
+      
+
+      Will
+      not step in salt.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4006164885504
+    m_Localized: "<style=\"Title\">Strengths</style>\n\n Increased activity when
+      players are nearby. \n\n <style=\"Title\">Weaknesses</style> \n\n More visible
+      during hunts.\nCannot perform the airball ghost event.\nGhost Events drain
+      more of the player's mind, and Ghost Events occur more often than others ghosts"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4112444354560
+    m_Localized: '<style="Title">Strengths</style>
+
+
+      Moves significantly faster
+      if the player location is known during a hunt.
+
+
+      <style="Title">Weaknesses</style>
+
+      Moves
+      very slowly when not chasing a player.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4114990297088
+    m_Localized: "<style=\"Title\">Strengths</style>\n\nHas a stronger effect on
+      sanity (0.4%/s).\n\r\n<style=\"Title\">Weaknesses</style> \n\nSmudging the
+      Yurei will reduce how often it wanders (90s).\r\nUsing its ability causes it
+      to shut door or doors."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4118358323200
+    m_Localized: '<style="Title">Strengths</style>
+
+
+      Lower temperatures allow
+      the Hantu to move faster.
+
+      
+
+      <style="Title">Weaknesses</style>
+
+
+      Warmer
+      areas slow the Hantu''s movement.
+
+      Will occasionally produce a freezing
+      breath during a hunt if the fuse box is off.
+
+      Will never turn the fuse
+      box on.
+
+      <color=red>There will always</color> be a freezing temperature
+      among the evidence, even in no-evidence mode!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4121055260672
+    m_Localized: "<style=\"Title\">Strengths</style>\n\nA flame extinguishing can
+      cause an Onryo to attack. \n\n\r<style=\"Title\">Weaknesses</style>\n\nThe
+      presence of flames reduces the Onryo's ability to attack."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4124029022208
+    m_Localized: '<style="Title">Strengths</style>
+
+
+      May leave fingerprints
+      that disappear quicker.
+
+
+      <style="Title">Weaknesses</style>
+
+
+      Has
+      a small chance of leaving special fingerprints (6 fingers).
+
+      Can quickly
+      shapeshift into another model during a hunt (6%).
+
+      <color=red>Always</color>
+      has fingerprints among the evidence! even in no-evidence mode.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4126956646400
+    m_Localized: "<style=\"Title\">Strengths</style>\n\nAlways knows where the player
+      is during a hunt and moves very fast when going to their location. \n\r\n<style=\"Title\">Weaknesses</style>
+      \n\nMoves very slowly when near its victim."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4129490006016
+    m_Localized: "<style=\"Title\">Strengths</style>\n\nLooking at a Phantom will
+      lower the player's sanity considerably (0.5%/sec).\r\nWill occasionally walk
+      to a random player.\n\n<style=\"Title\">Weaknesses</style> \n\nTaking a photo
+      of the Phantom will cause it to briefly disappear.\r\nLess visible during hunts
+      as it flickers faster."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4132631539712
+    m_Localized: '<style="Title">Strengths</style>
+
+
+      Travels at a faster speed
+      if a player is in line of sight.
+
+
+      <style="Title">Weaknesses</style>
+
+
+      Cannot
+      use its ability if the fuse box is off.
+
+      Will never turn the fuse box
+      off directly.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7942682767360
+    m_Localized: '<style="Title">Strengths</style>
+
+
+      Less likely to perform
+      interactions.
+
+
+      <style="Title">Weaknesses</style>
+
+
+      Cannot hunt
+      if people are nearby.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8220945477632
+    m_Localized: '<style="Title">Strengths</style>\n
+
+      Can only be seen interacting
+      with D.O.T.S. through a camera when nobody is nearby.\n
+
+      <style="Title">Weaknesses</style>\n
+
+      Cannot
+      wander far from its room or change favorite rooms.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8226733617152
+    m_Localized: "<style=\"Title\">Strengths</style>\n\nCan mimic the abilities and
+      traits of other ghosts. \n\n<style=\"Title\">Weaknesses</style>\n\n<color=red>Always</color>
+      will present fake Ghost Orbs as secondary evidence, even in no-evidence mode!."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8601473708032
+    m_Localized: '<style="Title">Strengths</style>\n
+
+      Entering the location
+      makes it active, defensive, and agile.\n
+
+      <style="Title">Weaknesses</style>\n
+
+      Over
+      time, it becomes slower and less active because it ages, so the the wiji board
+      shows the various ages of the ghost after several of its attacks.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281961491394560
+    m_Localized: '<style="Title">Strengths</style>\n
+
+      Either twin may start
+      a hunt, though not at the same time. One twin is slow, the other is fast.\n
+
+      <style="Title">Weaknesses</style>\n
+
+      Will
+      often interact with the environment at the same time but usually in different
+      places.'
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

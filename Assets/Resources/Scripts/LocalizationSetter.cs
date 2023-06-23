@@ -2,33 +2,36 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.Localization.Settings;
 
-public class LocalizationSetter : MonoBehaviour
+namespace Localization
 {
-    public static int LocalizationId = 0;
-    private const int DefaultLocalizationValue = 0;
-    private bool _isLocalizeActive = false;
-  
-    private void Start()
+    public class LocalizationSetter : MonoBehaviour
     {
-        LocalizationId = PlayerPrefs.GetInt(nameof(LocalizationId), DefaultLocalizationValue);
-        ChangeLocalization(LocalizationId);
-    }
+        public static int LocalizationId = 0;
+        private const int DefaultLocalizationValue = 0;
+        private bool _isLocalizeActive = false;
 
-    public void ChangeLocalization(int localizationId)
-    {
-        if(_isLocalizeActive == true)
+        private void Start()
         {
-            return;
+            LocalizationId = PlayerPrefs.GetInt(nameof(LocalizationId), DefaultLocalizationValue);
+            ChangeLocalization(LocalizationId);
         }
-        StartCoroutine(SetLocalizationById(localizationId));
-        PlayerPrefs.SetInt(nameof(LocalizationId), localizationId);
-    }
 
-    IEnumerator SetLocalizationById(int localizationId)
-    {
-        _isLocalizeActive = true;
-        yield return LocalizationSettings.InitializationOperation;
-        LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[localizationId];
-        _isLocalizeActive = false;
+        public void ChangeLocalization(int localizationId)
+        {
+            if (_isLocalizeActive == true)
+            {
+                return;
+            }
+            StartCoroutine(SetLocalizationById(localizationId));
+            PlayerPrefs.SetInt(nameof(LocalizationId), localizationId);
+        }
+
+        IEnumerator SetLocalizationById(int localizationId)
+        {
+            _isLocalizeActive = true;
+            yield return LocalizationSettings.InitializationOperation;
+            LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[localizationId];
+            _isLocalizeActive = false;
+        }
     }
 }

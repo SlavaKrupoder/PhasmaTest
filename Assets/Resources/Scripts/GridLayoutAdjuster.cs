@@ -2,39 +2,45 @@ using UnityEngine;
 using UnityEngine.UI;
 using SF = UnityEngine.SerializeField;
 
-[RequireComponent(typeof(GridLayoutGroup))]
-public class GridLayoutAdjuster : MonoBehaviour
+namespace CanvasAdapters
 {
-    [SF] private GridLayoutGroup _gridLayoutGroup;
-    [SF] private Vector2 _referenceCellSize = new Vector2(190f, 46f);
-    [SF] private Vector2 _referenceSpacingSize = new Vector2(6f, 9f);
-
-    private void Start()
+    [RequireComponent(typeof(GridLayoutGroup))]
+    public class GridLayoutAdjuster : MonoBehaviour
     {
-        if(_gridLayoutGroup == null)
+        [SF] private GridLayoutGroup _gridLayoutGroup;
+        [SF] private Vector2 _referenceCellSize = new Vector2(190f, 46f);
+        [SF] private Vector2 _referenceSpacingSize = new Vector2(6f, 9f);
+        private readonly float ReferenceWidth = 480f;
+        private readonly float ReferenceHeight = 800f;
+
+        private void Start()
         {
-            _gridLayoutGroup = GetComponent<GridLayoutGroup>();
+            if (_gridLayoutGroup == null)
+            {
+                _gridLayoutGroup = GetComponent<GridLayoutGroup>();
+            }
+            AdjustGridLayout();
         }
-        AdjustGridLayout();
-    }
 
-    private void AdjustGridLayout()
-    {
-        float aspectRatio = (float)Screen.width / Screen.height;
+        private void AdjustGridLayout()
+        {
 
-        float referenceWidth = 480f;
-        float referenceHeight = 800;
 
-        float scaleX = Screen.width / referenceWidth;
-        float scaleY = Screen.height / referenceHeight;
+            float scaleX = Screen.width / ReferenceWidth;
+            float scaleY = Screen.height / ReferenceHeight;
 
-        float cellSizeX = (_referenceCellSize.x * scaleX);
-        float cellSizeY = (_referenceCellSize.y * scaleY);
+            float cellSizeX = (_referenceCellSize.x * scaleX);
+            float cellSizeY = (_referenceCellSize.y * scaleY);
 
-       // float SpasingSizeX = (_referenceSpacingSize.x / scaleX);
-        // float SpasingSizeY = (_referenceSpacingSize.y / scaleY);
+            float SpasingSizeX = (_referenceSpacingSize.x * scaleX);
+            float SpasingSizeY = (_referenceSpacingSize.y * scaleY);
 
-        _gridLayoutGroup.cellSize = new Vector2(cellSizeX, cellSizeY);
-       // _gridLayoutGroup.spacing = new Vector2(SpasingSizeX, SpasingSizeY);
+            _gridLayoutGroup.cellSize = new Vector2(cellSizeX, cellSizeY);
+            // _gridLayoutGroup.spacing = new Vector2(SpasingSizeX, SpasingSizeY);
+        }
     }
 }
+
+
+/// 87 19.17
+/// 151 55

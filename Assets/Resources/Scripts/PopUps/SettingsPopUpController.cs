@@ -1,28 +1,12 @@
 using UnityEngine;
+using SF = UnityEngine.SerializeField;
 
-public class SettingsPopUpController : MonoBehaviour
-{
-    [SerializeField]
-    private Animator _popUpAnimator;
-    
-    private void Start()
+namespace PopUps { 
+
+
+    public class SettingsPopUpController : MonoBehaviour
     {
-        if (_popUpAnimator == null)
-        {
-            _popUpAnimator = GetComponent<Animator>();
-        }
-
-    }
-
-    public void PopUpAppear()
-    {
-        _popUpAnimator.SetTrigger("Appear");
-    }
-
-    public void PopUpDisAppear()
-    {
-        _popUpAnimator.SetTrigger("DisAppear");
+      
     }
 
 }
-
